@@ -3,7 +3,7 @@ FROM docker.io/node:10.13-stretch
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends chromium
+    && apt-get install -y --no-install-recommends chromium chromedriver
 
 ENV CHROME_BIN=chromium
 
