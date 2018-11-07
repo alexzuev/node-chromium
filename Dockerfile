@@ -1,4 +1,4 @@
-FROM docker.io/node:8.12-stretch
+FROM docker.io/node:10.13-stretch
 
 ENV DEBIAN_FRONTEND=noninteractive
 
